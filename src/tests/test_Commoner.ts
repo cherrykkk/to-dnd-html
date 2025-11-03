@@ -1,0 +1,35 @@
+export const MOCK_MONSTER_HTML = `<div class="stat-block">
+<h5 id="Commoner">平民Commoner</h5>
+<div class="sub-line">中型或小型类人，中立</div>
+<table><tbody><tr><td><strong>AC </strong>10</td><td width="40%"><strong>先攻 </strong>+0（10）</td></tr>
+<tr><td colspan="2"><strong>HP </strong>4（1d8）</td></tr>
+<tr><td colspan="2"><strong>速度 </strong>30尺</td></tr></tbody></table>
+<table class="stat-abilities"><tbody><tr><th></th><th></th><th>调整</th><th>豁免</th><td style="WIDTH: 5px"></td><th></th><th></th><th>调整</th><th>豁免</th><td style="WIDTH: 5px"></td><th></th><th></th><th>调整</th><th>豁免</th></tr>
+<tr><td class="c1"><strong>力量</strong></td><td class="c1">10</td><td class="c2">+0</td><td class="c2">+0</td>
+<td></td>
+<td class="c1"><strong>敏捷</strong></td><td class="c1">10</td><td class="c2">+0</td><td class="c2">+0</td>
+<td></td>
+<td class="c1"><strong>体质</strong></td><td class="c1">10</td><td class="c2">+0</td><td class="c2">+0</td></tr>
+<tr><td class="c3"><strong>智力</strong></td><td class="c3">10</td><td class="c4">+0</td><td class="c4">+0</td>
+<td></td>
+<td class="c3"><strong>感知</strong></td><td class="c3">10</td><td class="c4">+0</td><td class="c4">+0</td>
+<td></td>
+<td class="c3"><strong>魅力</strong></td><td class="c3">10</td><td class="c4">+0</td><td class="c4">+0</td></tr>
+</tbody></table>
+<table>
+<tbody><tr><td><strong>装备 </strong>短棒</td></tr>
+<tr><td><strong>感官 </strong>被动察觉10</td></tr>
+<tr><td><strong>语言 </strong>通用语</td></tr>
+<tr><td><strong>CR </strong>0（XP10；PB+2）</td></tr>
+</tbody></table>
+<p>
+</p>
+<h6>特质Traits</h6>
+<p>
+<strong>技艺受训Training。</strong>平民具有某项技能熟练（由DM选择），且在进行使用该技能的属性检定时具有优势。<br>
+</p>
+<h6>动作Actions</h6>
+<p>
+<strong>短棒Club。</strong><em>近战攻击检定：</em>+2，触及5尺。<em>命中：</em>2（1d4）钝击伤害。
+</p>
+</div>`;
